@@ -1,0 +1,665 @@
+.top_strip{
+    width: 100%;
+    position: relative;
+    font-family: 'Titillium Web';
+}
+.homeicon{
+    position: relative;
+    width: 100%;
+}
+
+.search_content{
+    position: absolute;
+    top:30px;
+    left: 140px;
+}
+.form-control{
+    width: 340px;
+    height: 40px;
+}
+.search_menu{
+    
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
+.search_menu ul{
+    padding-left: 120px;
+}
+.search_menu ul li{
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+    color: white;
+}
+.search_menu ul li i{
+    color: yellow;
+}
+.top_menubar{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.top_menubar ul li{
+    display: inline-block;
+}
+.top_menubar ul li:first-child{
+    padding-left: 0px;
+}
+.top_menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+.top_menubar ul li a:hover{
+    background-color:#deb027;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.top_menubar ul li button{
+    padding: 6px 10px;
+    font-size: 20px;
+    color: #deb027;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+.top_menubar ul li:last-child{
+    padding-left:50px;
+    color: #deb027;
+    font-weight: normal;
+}
+.fa-shopping-cart{
+    padding-right: 20px;
+}
+.header_content_left{
+    position: absolute;
+    top:180px;
+    left: 30px;
+    width: 54%;
+}
+.header_content_left h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding-left: 66px;
+    font-family: 'Zilla Slab';
+}
+.header_content_left h4{
+    font-size: 27px;
+    color: white;
+    font-weight: normal;
+    padding-left: 66px;
+}
+.header_content_left a{
+    padding: 14px 20px;
+   font-size: 20px;
+    text-decoration: none;
+    color: #deb027;
+    border: 4px solid #deb027;
+    font-weight: bold;
+}
+.header_content_left_button{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.header_content_right{
+    position: absolute;
+    top:408px;
+    left: 70%;
+    margin-right: 100px;
+    color:white;   
+}
+.header_content_right a{
+    padding: 10px 20px;
+    background-color:#b38e1c;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+.bottom_menubar{
+       position: absolute;
+       left: 0px;
+       bottom: 0px;
+    background-color: rgb(49, 49, 49);
+}
+.bottom_menubar ul li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 0px ;
+    font-weight: bold;
+}
+.bottom_menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bottom_menubar ul li:first-child{
+    padding-left: 200px;
+}
+.bottom_menubar_button{
+    left: 83%;
+    bottom: 0px;
+    position: absolute;
+}
+.bottom_menubar_button a{
+    border: 1 px solid white;
+    background-color: white;
+    padding: 10px 0px 8px 16px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #deb027;
+}
+/*section1 style start here*/
+.section1{
+    background-color: #e6e6e6;
+}
+.king_food_content h4{
+    padding-left: 96px;
+    padding-top: 100px;
+    color: #deb027;
+    font-family: 'Zilla Slab';
+    font-size: 32px;
+    font-weight: bold;
+}
+.king_food_content h3{
+    padding-left: 93px;
+    padding-top: 50px;
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+.king_food_content span{
+    font-size: 12px;
+    padding-left: 94px;
+}
+.king_food_content a{
+    border: 3px solid #deb027;
+    padding: 10px;
+    font-size: 20px;
+    color: #deb027;
+    text-decoration: none;
+    font-weight: bold;
+}
+.king_food_content_button{
+    margin:40px 0px 30px 80px;
+}
+.kingfood_icon_content{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.kingfood_icon{
+    width: 400px;
+    margin-bottom: 140px;
+}
+/*section2 style start here*/
+.section2{
+    font-family: 'Titillium Web';
+}
+.section2_voordeliage {
+    padding-left: 96px;
+}
+.section2_voordeliage p{
+    font-size: 18px;
+    text-align: left;
+}
+.section2_voordeliage span{
+    color:#deb027;
+}
+.section2_voordeliage h1{
+    font-size: 40px;
+    color:#deb027;
+    text-align: left;
+    font-family: 'Zilla Slab';
+    padding-top: 100px;
+    font-weight: bold;
+}
+.section2_voordeliage_button{
+    text-align: left;
+}
+.section2_voordeliage_button button{
+    padding: 10px 20px;
+    border: 3px solid #deb027;
+    font-size: 20px;
+    color: #deb027;
+    font-weight: bold;
+    background-color: white;
+}
+/*section3 style start here*/
+.section3{
+    background-color: #e6e6e6;
+}
+.assoritment_heading {
+    padding: 10px 340px;
+    text-align: center;
+}
+.assoritment_heading h1{
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:#deb027 ;
+    font-family: 'Zilla Slab';
+}
+.assoritment_heading p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.dranken_icon{
+    padding: 0px;
+}
+.listitem_heading h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding:20px 20px 0px 22px;
+}
+.listitem_heading p{
+    font-size: 18px;
+    padding: 0px 21px;
+}
+.listitem_heading b{
+    font-size: 17px;
+}
+.listitem_heading{
+    margin-left: 96px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #deb027;
+}
+.oncemarken_section{
+    font-family: 'Titillium Web';
+}
+.oncemarken_section p{
+    font-size: 22px;
+    text-align: center;
+    padding: 0px 260px;
+}
+.oncemarken_section h4{
+    font-size: 36px;
+    text-align: center;
+    color: #deb027;
+    font-weight: 700;
+    padding-top: 50px;
+    font-family: 'Zilla Slab';
+}
+.oncemarken_button{
+    padding: 10px 100px 70px 34%;
+}
+.oncemarken_button button{
+    font-size: 20px;
+    background-color: white;
+    color:#deb027;
+    border: 3px solid #deb027;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.section5{
+    position: relative;
+}
+.section5_icon{
+    position: relative;
+}
+.section5_bestellen{
+    position: absolute;
+    top: 80px;
+    left: 20em;
+    font-family: 'Titillium Web';
+}
+.section5_bestellen h4{
+    font-size: 18px;
+    color:#deb027;
+
+}
+.section5_bestellen h1{
+    font-size: 32px;
+    color: white;
+    font-weight: 900;
+    padding: 0px;
+    font-family: 'Zilla Slab';
+}
+.section5_bestellen p{
+    font-size: 18px;
+    color: white;
+}
+.section5_bestellen p a{
+    text-decoration: none;
+    color: #deb027;
+}
+.section5_bestellen button{
+    border: 1px solid white;
+    padding: 10px 26px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #deb027;
+    font-weight: bold;
+}
+.section5_bestellen button:first-child{
+    background-color: #deb027;
+    color: white;
+    border: 1px solid #deb027;
+
+}
+.section6{
+    display: flex;
+}
+.section6_kingfood h6,h1,ul{
+    padding-left: 100px;
+}
+.section6_kingfood  ul li{
+    list-style-type: none;
+    padding-left: 100px;
+}
+.section6_kingfood h6{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+.section6_kingfood h1{
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Zilla Slab';
+}
+.section6button button{
+    padding: 8px 16px;
+    border: 3px solid #582a83;
+    background-color: white;
+    color:#582a83;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section6button{
+    padding-left: 100px;
+}
+.footer h1{
+    background-color:#deb027;
+    font-family: 'Zilla Slab';
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.footerlist_item1 ul{
+    margin-left: 0px;
+}
+
+.footerlist_item1 h6{
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+.footerlist_item1 ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Titillium Web';
+}
+.footerlist_item2 ul{
+    margin-left: 120px;
+}
+
+.footerlist_item2 h6{
+    margin-top: 80px;
+    margin-left: 120px;
+    font-size: 20px;
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+.footerlist_item2 ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Titillium Web';
+}
+.footerlist_item3 ul{
+    margin-left: 210px;
+}
+
+.footerlist_item3 h6{
+    margin-top: 80px;
+    margin-left: 210px;
+    font-size: 20px;
+    font-family: 'Zilla Slab';
+    font-weight: bold;
+}
+.footerlist_item3 ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Titillium Web';
+}
+.footerlist_item3 i{
+    font-size: 20px;
+}
+.footericon a
+{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.footericon {
+    margin-left: 210px;
+}
+
+/*Tablet view style start here*/
+@media (min-width:768px) and (max-width:991px){
+    .bottom_menubar_headersection{
+        display: none;
+    }
+    .search_content {
+        left: 76px;
+    }
+    
+    .form-control {
+    width: 270px;
+    }
+    .search_menu ul {
+    padding-left: 0px;
+    }
+    .search_menu{
+        top:36px;
+    }
+    .top_menubar {
+        left: 65px;
+    }
+    .top_menubar ul li:last-child {
+        display: none;
+    }
+    .header_content_left {
+        position: absolute;
+        top: 148px;
+        left: 31px;
+        width: 60%;
+    }
+    .header_content_left h1 {
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+        padding-left: 46px;
+    }
+    .header_content_left h4 {
+        font-size: 20px;
+        color: white;
+        font-weight: normal;
+        padding-left: 44px;
+    }
+    .header_content_left_button {
+        margin-top: 26px;
+        margin-left: 30px;
+    }
+    .header_content_left a {
+    padding: 6px 10px;
+    font-size: 18px;
+    }
+    .header_content_right {
+        position: absolute;
+        top: 222px;
+        left: 68%;
+        margin-left: 16px;
+        margin-right: 58px;
+    }
+
+    .header_content_right a {
+    padding: 3px 0px;
+    background-color: #deb027;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+    /* margin-right: 37px; */
+    }
+    /*section1 style start here*/
+    .king_food_content h4 {
+        padding-left: 100px;
+        padding-top: 54px;
+    }
+    .king_food_content h3 {
+        padding-left: 93px;
+        padding-top: 20px;
+    }
+    .king_food_content_button {
+        margin: 26px 0px 30px 80px;
+    }
+    .king_food_content a {
+        padding: 4px 10px;
+        font-size: 18px;
+    }
+    .kingfood_icon {
+        margin-bottom: 30px;
+    }
+    /*section2 style start here*/
+    .section2{
+        display: flex;
+    }
+    .section2_voordeliage {
+        padding-left: 68px;
+    }
+    .section2_voordeliage p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .section2_voordeliage h1 {
+        font-size: 28px;
+        color: #deb027;
+        /* padding: 0px 0px 20px 20px; */
+        text-align: center;
+    }
+    .section2_voordeliage_button {
+        padding-left: 210px;
+        margin-bottom: 50px;
+    }
+    .assoritment_heading {
+        padding: 10px 0px 30px 0px;
+    }
+    .assoritment_heading p {
+        padding-left: 46px;
+    }
+    .listitem_heading {
+        margin-left: 50px;
+    }
+    .kingfood_icon {
+        margin-bottom: 30px;
+        width: 600px;
+    }
+    .king_food_content h4 {
+        font-size: 40px;
+    }
+    .section5_icon {
+        height: 340px;
+    }
+    .section5_bestellen {
+        left: 2em;
+    }
+    .oncemarken_section p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .section6 {
+        display: contents;
+    }
+    
+    .section6_kingfood {
+    margin-bottom: 32px;
+    }
+    .section6_kingfood h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .section6_kingfood h6 {
+        font-size: 24px;
+    }
+    .section6_kingfood ul li {
+        font-size: 22px;
+    }
+    .section6button button {
+        font-size: 22px;
+    }
+}
+
+/*Moblie view style start here*/
+@media (max-width:767px)
+{
+    .top_header{
+        display: none;
+    }
+    .assoritment_heading {
+        padding: 10px;
+    }
+    .bottom_menubar_headersection{
+        display: none;
+    }
+    .oncemarken_section h4 {
+        padding: 0px;
+        text-align: center;
+    }
+    .oncemarken_section p {
+        text-align: center;
+        padding:0px;
+    }
+    .kingfood_icon {
+        margin-bottom: 0px;
+    }
+    .section2_voordeliage {
+        margin-bottom: 22px;
+    }
+    .section2_voordeliage h1 {
+        padding: 30px 0px 20px 20px;
+        text-align: center;
+    }
+    .section2_voordeliage p {
+        text-align: center;
+    }
+    .section2_voordeliage_button {
+        text-align: center;
+    }
+    .section5_bestellen {
+        position: absolute;
+        top: 0px;
+        left: 3em;
+    }
+    .section6 {
+        display: grid;
+    }
+    .footerlist_item2 h6 {
+         margin-left: 0px;
+    }
+    .footerlist_item2 ul {
+        margin-left: 0px;
+   }
+   .footerlist_item3 ul {
+    margin-left: 0px;
+   }
+   .footerlist_item3 h6 {
+    margin-left: 0px;
+   }
+   .footericon {
+    margin-left: 0px;
+}
+
+
+
+}
